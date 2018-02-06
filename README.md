@@ -41,6 +41,13 @@ email|User E-mail|String
 userName|User Name|String
 password|User Password|String
 
+### Body Example (JSON Format)
+{\
+  "email": "ksy0628@sk.com",\
+  "userName": "김세영",\
+  "password": "12345"\
+}
+
 ### Response
 Case|Return
 ---|---
@@ -59,6 +66,12 @@ Parameter|Parameter명|Data Type
 ---|---|---
 email|User E-mail|String
 password|User Password|String
+
+### Body Example (JSON Format)
+{\
+  "email": "ksy0628@sk.com",\
+  "password": "12345"\
+}
 
 ### Response
 Case|Return
