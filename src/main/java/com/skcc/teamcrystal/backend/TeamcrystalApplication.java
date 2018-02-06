@@ -1,4 +1,4 @@
-package com.skcc.teamcrystal;
+package com.skcc.teamcrystal.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
