@@ -51,7 +51,7 @@ password|User Password|String
 ### Response
 Case|Return
 ---|---
-성공|{"result": "SUCCESS","MEETING_ID": "1"}
+성공|{"result": "SUCCESS"}
 실패|{"result": "FAIL","reason": "EMAIL & Name Already Used"}
 
   
