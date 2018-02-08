@@ -34,12 +34,6 @@ public class UserController {
 	}
 
 	@CrossOrigin
-	@RequestMapping(value = "/user/all", method = RequestMethod.GET, produces = { MediaType.APPLICATION_JSON_VALUE })
-	public List<User> uList() {
-		return userreposi.findAll();
-	}
-
-	@CrossOrigin
 	@RequestMapping(value = "/user/login", method = RequestMethod.POST, consumes = {
 			MediaType.APPLICATION_JSON_VALUE }, produces = { MediaType.APPLICATION_JSON_VALUE })
 	public String login(@RequestBody User user) {
